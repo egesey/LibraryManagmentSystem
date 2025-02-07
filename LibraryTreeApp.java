@@ -20,7 +20,7 @@ public class LibraryTreeApp {
             System.out.println("0️⃣ Çıkış");
             System.out.print("Seçiminizi yapın: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Buffer temizleme
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1 -> {
